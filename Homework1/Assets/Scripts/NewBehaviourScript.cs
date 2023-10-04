@@ -10,6 +10,10 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void Deactive()
     {
-        Testobj.SetActive(false);
+        if (Testobj.active == true)
+            Testobj.SetActive(false);
+
+        else if (Testobj.active == false)
+            Testobj.SetActive(true);
     }
 }
