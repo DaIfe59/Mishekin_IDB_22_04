@@ -1,0 +1,1 @@
+{"stanok":[{"stanok_name":"stanok1"},{"stanok_name":"stanok2"},{"stanok_name":"stanok3"}]}
